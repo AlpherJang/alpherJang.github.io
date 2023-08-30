@@ -102,4 +102,7 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  branch: gh-pages
+  repo: https://github.com/AlpherJang/alpherjang.github.io.git
+  message: "update"
